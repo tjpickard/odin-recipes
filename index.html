@@ -3,10 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Recipes</title>
+    <title>Toasty Meals</title>
+    <style>
+        .container {
+            width: 800px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .navbar {
+            background-color: navy;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+        a {
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration: none;
+            padding: 10px;
+        }
+        h1 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    </style>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <a href="recipes/beans_on_toast.html">Beans on Toast</a>
+    <div class="container">
+        <h1>Toasty Meals</h1>
+        <div class="navbar">
+            <a href="recipes/beans_on_toast.html">Beans on Toast</a>
+            <a href="recipes/cheese_on_toast.html">Cheese on Toast</a>
+            <a href="recipes/marmite_on_toast.html">Marmite on Toast</a>
+        </div>
+    </div>
 </body>
 </html>
